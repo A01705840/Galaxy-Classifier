@@ -10,10 +10,11 @@ import matplotlib.pyplot as plt
 # ============================================================
 model_path = r"./best_galaxy_cnn.pth"
 
+img_path = input("Ingrese la ruta de la imagen de prueba: ")
 # Imagen de prueba 
-#img_path = r"./images_E_S_SB_299x299_a_03/images_E_S_SB_299x299_a_03_test/E/1927.jpg"
+#img_path = r"/images_E_S_SB_299x299_a_03/images_E_S_SB_299x299_a_03_test/E/1927.jpg"
 #img_path = r"./images_E_S_SB_299x299_a_03/images_E_S_SB_299x299_a_03_test/S/9290.jpg"
-img_path = r"./images_E_S_SB_299x299_a_03/images_E_S_SB_299x299_a_03_test/SB/67477.jpg"
+#img_path = r"./images_E_S_SB_299x299_a_03/images_E_S_SB_299x299_a_03_test/SB/67477.jpg"
 
 # Nombre de las clases del modelo
 class_names = ["elliptical", "spiral", "spiral barred"]
